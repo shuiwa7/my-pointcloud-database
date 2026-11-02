@@ -37,7 +37,7 @@ pip install cadquery numpy trimesh open3d tqdm
 ```bash
 python generate_step.py
 ```
-* **输入**：`database/*/*/spec.json`
+* **输入**：`database/*/*/*/spec.json`
 * **输出**：`instances/inst_xxxx.step` 与 `instance_metadata.csv`
 
 ### 第二步：模拟物理扫描生成点云 (PLY)
