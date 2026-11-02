@@ -1,0 +1,58 @@
+{
+  "design_id": "hole_plate_0014",
+  "family": "hole_plate",
+  "dims": {
+    "L": {
+      "nominal": 60.0,
+      "it_grade": "IT6",
+      "size_segment": ">50-80",
+      "T": 0.019,
+      "tol_form": "asym",
+      "upper_dev": 0.0133,
+      "lower_dev": -0.0057,
+      "LSL": 59.9943,
+      "USL": 60.0133,
+      "dim_definition": "长方体长度"
+    },
+    "W": {
+      "nominal": 60.0,
+      "it_grade": "IT7",
+      "size_segment": ">50-80",
+      "T": 0.03,
+      "tol_form": "plus",
+      "upper_dev": 0.03,
+      "lower_dev": 0.0,
+      "LSL": 60.0,
+      "USL": 60.03,
+      "dim_definition": "长方体宽度"
+    },
+    "H": {
+      "nominal": 15.0,
+      "it_grade": "IT7",
+      "size_segment": ">10-18",
+      "T": 0.018,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.018,
+      "LSL": 14.982,
+      "USL": 15.0,
+      "dim_definition": "长方体厚度"
+    },
+    "D": {
+      "nominal": 20.0,
+      "it_grade": "IT7",
+      "size_segment": ">18-30",
+      "T": 0.021,
+      "tol_form": "sym",
+      "upper_dev": 0.0105,
+      "lower_dev": -0.0105,
+      "LSL": 19.9895,
+      "USL": 20.0105,
+      "dim_definition": "内孔拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "hetero_form",
+    "seed": 20241028
+  }
+}

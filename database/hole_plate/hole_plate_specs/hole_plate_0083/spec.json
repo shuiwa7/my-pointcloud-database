@@ -1,0 +1,58 @@
+{
+  "design_id": "hole_plate_0083",
+  "family": "hole_plate",
+  "dims": {
+    "L": {
+      "nominal": 100.0,
+      "it_grade": "IT7",
+      "size_segment": ">80-120",
+      "T": 0.035,
+      "tol_form": "asym",
+      "upper_dev": 0.0245,
+      "lower_dev": -0.0105,
+      "LSL": 99.9895,
+      "USL": 100.0245,
+      "dim_definition": "长方体长度"
+    },
+    "W": {
+      "nominal": 60.0,
+      "it_grade": "IT7",
+      "size_segment": ">50-80",
+      "T": 0.03,
+      "tol_form": "asym",
+      "upper_dev": 0.021,
+      "lower_dev": -0.009,
+      "LSL": 59.991,
+      "USL": 60.021,
+      "dim_definition": "长方体宽度"
+    },
+    "H": {
+      "nominal": 10.0,
+      "it_grade": "IT7",
+      "size_segment": ">6-10",
+      "T": 0.015,
+      "tol_form": "asym",
+      "upper_dev": 0.0105,
+      "lower_dev": -0.0045,
+      "LSL": 9.9955,
+      "USL": 10.0105,
+      "dim_definition": "长方体厚度"
+    },
+    "D": {
+      "nominal": 10.0,
+      "it_grade": "IT7",
+      "size_segment": ">6-10",
+      "T": 0.015,
+      "tol_form": "asym",
+      "upper_dev": 0.0105,
+      "lower_dev": -0.0045,
+      "LSL": 9.9955,
+      "USL": 10.0105,
+      "dim_definition": "内孔拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "homogeneous",
+    "seed": 20241028
+  }
+}

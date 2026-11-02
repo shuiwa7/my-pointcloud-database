@@ -1,0 +1,58 @@
+{
+  "design_id": "stepped_shaft_0020",
+  "family": "stepped_shaft",
+  "dims": {
+    "D1": {
+      "nominal": 100.0,
+      "it_grade": "IT7",
+      "size_segment": ">80-120",
+      "T": 0.035,
+      "tol_form": "plus",
+      "upper_dev": 0.035,
+      "lower_dev": 0.0,
+      "LSL": 100.0,
+      "USL": 100.035,
+      "dim_definition": "大端外圆柱拟合直径"
+    },
+    "H1": {
+      "nominal": 40.0,
+      "it_grade": "IT7",
+      "size_segment": ">30-50",
+      "T": 0.025,
+      "tol_form": "plus",
+      "upper_dev": 0.025,
+      "lower_dev": 0.0,
+      "LSL": 40.0,
+      "USL": 40.025,
+      "dim_definition": "大端圆柱高度"
+    },
+    "D2": {
+      "nominal": 40.0,
+      "it_grade": "IT7",
+      "size_segment": ">30-50",
+      "T": 0.025,
+      "tol_form": "plus",
+      "upper_dev": 0.025,
+      "lower_dev": 0.0,
+      "LSL": 40.0,
+      "USL": 40.025,
+      "dim_definition": "小端外圆柱拟合直径"
+    },
+    "H2": {
+      "nominal": 30.0,
+      "it_grade": "IT7",
+      "size_segment": ">18-30",
+      "T": 0.021,
+      "tol_form": "plus",
+      "upper_dev": 0.021,
+      "lower_dev": 0.0,
+      "LSL": 30.0,
+      "USL": 30.021,
+      "dim_definition": "小端圆柱高度"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "homogeneous",
+    "seed": 20241028
+  }
+}

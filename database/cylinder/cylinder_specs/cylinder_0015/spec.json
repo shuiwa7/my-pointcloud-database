@@ -1,0 +1,35 @@
+{
+  "design_id": "cylinder_0015",
+  "family": "cylinder",
+  "dims": {
+    "D": {
+      "nominal": 20.0,
+      "it_grade": "IT8",
+      "size_segment": ">18-30",
+      "T": 0.033,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.033,
+      "LSL": 19.967,
+      "USL": 20.0,
+      "dim_definition": "外圆柱拟合直径"
+    },
+    "H": {
+      "nominal": 20.0,
+      "it_grade": "IT8",
+      "size_segment": ">18-30",
+      "T": 0.033,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.033,
+      "LSL": 19.967,
+      "USL": 20.0,
+      "dim_definition": "两端面距离"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "homogeneous",
+    "cross_segment": false,
+    "seed": 20241028
+  }
+}

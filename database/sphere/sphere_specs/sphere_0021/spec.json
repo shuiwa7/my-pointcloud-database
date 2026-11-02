@@ -1,0 +1,22 @@
+{
+  "design_id": "sphere_0021",
+  "family": "sphere",
+  "dims": {
+    "D": {
+      "nominal": 40.0,
+      "it_grade": "IT8",
+      "size_segment": ">30-50",
+      "T": 0.039,
+      "tol_form": "sym",
+      "upper_dev": 0.0195,
+      "lower_dev": -0.0195,
+      "LSL": 39.9805,
+      "USL": 40.0195,
+      "dim_definition": "球面拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "full_enum",
+    "seed": 20241028
+  }
+}

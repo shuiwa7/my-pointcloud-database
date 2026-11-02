@@ -1,0 +1,11 @@
+*.step
+*.ply
+*.xyz
+
+**/instances
+
+__pycache__
+*.pyc
+.vscode/
+.idea/
+.DS_Store

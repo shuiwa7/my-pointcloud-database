@@ -1,0 +1,58 @@
+{
+  "design_id": "hole_plate_0042",
+  "family": "hole_plate",
+  "dims": {
+    "L": {
+      "nominal": 60.0,
+      "it_grade": "IT8",
+      "size_segment": ">50-80",
+      "T": 0.046,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.046,
+      "LSL": 59.954,
+      "USL": 60.0,
+      "dim_definition": "长方体长度"
+    },
+    "W": {
+      "nominal": 60.0,
+      "it_grade": "IT6",
+      "size_segment": ">50-80",
+      "T": 0.019,
+      "tol_form": "sym",
+      "upper_dev": 0.0095,
+      "lower_dev": -0.0095,
+      "LSL": 59.9905,
+      "USL": 60.0095,
+      "dim_definition": "长方体宽度"
+    },
+    "H": {
+      "nominal": 15.0,
+      "it_grade": "IT7",
+      "size_segment": ">10-18",
+      "T": 0.018,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.018,
+      "LSL": 14.982,
+      "USL": 15.0,
+      "dim_definition": "长方体厚度"
+    },
+    "D": {
+      "nominal": 20.0,
+      "it_grade": "IT6",
+      "size_segment": ">18-30",
+      "T": 0.013,
+      "tol_form": "sym",
+      "upper_dev": 0.0065,
+      "lower_dev": -0.0065,
+      "LSL": 19.9935,
+      "USL": 20.0065,
+      "dim_definition": "内孔拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "hetero_dims",
+    "seed": 20241028
+  }
+}

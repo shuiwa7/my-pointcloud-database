@@ -1,0 +1,58 @@
+{
+  "design_id": "hole_plate_0090",
+  "family": "hole_plate",
+  "dims": {
+    "L": {
+      "nominal": 100.0,
+      "it_grade": "IT6",
+      "size_segment": ">80-120",
+      "T": 0.022,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.022,
+      "LSL": 99.978,
+      "USL": 100.0,
+      "dim_definition": "长方体长度"
+    },
+    "W": {
+      "nominal": 80.0,
+      "it_grade": "IT6",
+      "size_segment": ">50-80",
+      "T": 0.019,
+      "tol_form": "plus",
+      "upper_dev": 0.019,
+      "lower_dev": 0.0,
+      "LSL": 80.0,
+      "USL": 80.019,
+      "dim_definition": "长方体宽度"
+    },
+    "H": {
+      "nominal": 20.0,
+      "it_grade": "IT8",
+      "size_segment": ">18-30",
+      "T": 0.033,
+      "tol_form": "asym",
+      "upper_dev": 0.0231,
+      "lower_dev": -0.0099,
+      "LSL": 19.9901,
+      "USL": 20.0231,
+      "dim_definition": "长方体厚度"
+    },
+    "D": {
+      "nominal": 20.0,
+      "it_grade": "IT7",
+      "size_segment": ">18-30",
+      "T": 0.021,
+      "tol_form": "sym",
+      "upper_dev": 0.0105,
+      "lower_dev": -0.0105,
+      "LSL": 19.9895,
+      "USL": 20.0105,
+      "dim_definition": "内孔拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "mixed",
+    "seed": 20241028
+  }
+}

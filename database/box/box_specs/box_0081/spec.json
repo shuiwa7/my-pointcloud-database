@@ -1,0 +1,46 @@
+{
+  "design_id": "box_0081",
+  "family": "box",
+  "dims": {
+    "L": {
+      "nominal": 20.0,
+      "it_grade": "IT6",
+      "size_segment": ">18-30",
+      "T": 0.013,
+      "tol_form": "sym",
+      "upper_dev": 0.0065,
+      "lower_dev": -0.0065,
+      "LSL": 19.9935,
+      "USL": 20.0065,
+      "dim_definition": "两平行端面距离"
+    },
+    "W": {
+      "nominal": 100.0,
+      "it_grade": "IT7",
+      "size_segment": ">80-120",
+      "T": 0.035,
+      "tol_form": "asym",
+      "upper_dev": 0.0245,
+      "lower_dev": -0.0105,
+      "LSL": 99.9895,
+      "USL": 100.0245,
+      "dim_definition": "两平行侧面距离"
+    },
+    "H": {
+      "nominal": 20.0,
+      "it_grade": "IT6",
+      "size_segment": ">18-30",
+      "T": 0.013,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.013,
+      "LSL": 19.987,
+      "USL": 20.0,
+      "dim_definition": "上下两面距离"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "hetero_form",
+    "seed": 20241028
+  }
+}

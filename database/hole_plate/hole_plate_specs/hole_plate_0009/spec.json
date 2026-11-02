@@ -1,0 +1,58 @@
+{
+  "design_id": "hole_plate_0009",
+  "family": "hole_plate",
+  "dims": {
+    "L": {
+      "nominal": 100.0,
+      "it_grade": "IT8",
+      "size_segment": ">80-120",
+      "T": 0.054,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.054,
+      "LSL": 99.946,
+      "USL": 100.0,
+      "dim_definition": "长方体长度"
+    },
+    "W": {
+      "nominal": 40.0,
+      "it_grade": "IT8",
+      "size_segment": ">30-50",
+      "T": 0.039,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.039,
+      "LSL": 39.961,
+      "USL": 40.0,
+      "dim_definition": "长方体宽度"
+    },
+    "H": {
+      "nominal": 15.0,
+      "it_grade": "IT8",
+      "size_segment": ">10-18",
+      "T": 0.027,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.027,
+      "LSL": 14.973,
+      "USL": 15.0,
+      "dim_definition": "长方体厚度"
+    },
+    "D": {
+      "nominal": 10.0,
+      "it_grade": "IT8",
+      "size_segment": ">6-10",
+      "T": 0.022,
+      "tol_form": "minus",
+      "upper_dev": 0.0,
+      "lower_dev": -0.022,
+      "LSL": 9.978,
+      "USL": 10.0,
+      "dim_definition": "内孔拟合直径"
+    }
+  },
+  "sampling_meta": {
+    "pattern": "homogeneous",
+    "seed": 20241028
+  }
+}
